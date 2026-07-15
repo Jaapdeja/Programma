@@ -1,3 +1,4 @@
+Nondango data:
 ========== Nondango 6x6 ==========
 
 Encoding: Naive
@@ -61,6 +62,8 @@ Clauses: 4342
 Encoding time: 0.015941
 DPLL: True 0.48061149999999975 {'decisions': 111, 'conflicts': 47, 'propagations': 2035, 'nodes': 112}
 CDCL: True 0.9536529000000002 {'decisions': 10, 'propagations': 1765, 'conflicts': 5, 'learned_clauses': 5, 'steps': 16}
+
+N-Queens data:
  ========== N-Queens 2 ==========
 
 Encoding: Naive
@@ -188,6 +191,8 @@ Clauses: 41758
 Encoding time: 0.619055
 DPLL: True 195.5681463 {'decisions': 7547, 'conflicts': 3765, 'propagations': 2177379, 'nodes': 7548}
 CDCL: True 75.82221229999999 {'decisions': 327, 'propagations': 900495, 'conflicts': 319, 'learned_clauses': 319, 'steps': 647}
+
+Nonogram data:
  ========== 5x5 ==========
 Encoding: Naive
 Variables: 25

@@ -1,0 +1,248 @@
+========== Nondango 6x6 ==========
+
+Encoding: Naive
+Variables: 19
+Clauses: 74
+Encoding time: 0.000824
+DPLL: True 0.0001688999999999996 {'decisions': 0, 'conflicts': 0, 'propagations': 19, 'nodes': 1}
+CDCL: True 0.0002863000000000032 {'decisions': 0, 'propagations': 19, 'conflicts': 0, 'learned_clauses': 0, 'steps': 1}
+
+Encoding: Tseitin
+Variables: 184
+Clauses: 496
+Encoding time: 0.001078
+DPLL: True 0.005808599999999997 {'decisions': 0, 'conflicts': 0, 'propagations': 184, 'nodes': 1}
+CDCL: True 0.011252399999999996 {'decisions': 0, 'propagations': 184, 'conflicts': 0, 'learned_clauses': 0, 'steps': 1}
+
+========== Nondango 10x10 ==========
+
+Encoding: Naive
+Variables: 92
+Clauses: 579
+Encoding time: 0.004525
+DPLL: True 0.0018654000000000032 {'decisions': 0, 'conflicts': 0, 'propagations': 92, 'nodes': 1}
+CDCL: True 0.0023998000000000005 {'decisions': 0, 'propagations': 92, 'conflicts': 0, 'learned_clauses': 0, 'steps': 1}
+
+Encoding: Tseitin
+Variables: 1634
+Clauses: 4627
+Encoding time: 0.014576
+DPLL: True 0.536714 {'decisions': 0, 'conflicts': 0, 'propagations': 1634, 'nodes': 1}
+CDCL: True 1.0520247 {'decisions': 0, 'propagations': 1634, 'conflicts': 0, 'learned_clauses': 0, 'steps': 1}
+
+========== Nondango 12x12 ==========
+
+Encoding: Naive
+Variables: 97
+Clauses: 447
+Encoding time: 0.002779
+DPLL: True 0.005373800000000095 {'decisions': 40, 'conflicts': 16, 'propagations': 111, 'nodes': 41}
+CDCL: True 0.007941599999999882 {'decisions': 6, 'propagations': 151, 'conflicts': 5, 'learned_clauses': 5, 'steps': 12}
+
+Encoding: Tseitin
+Variables: 1215
+Clauses: 3355
+Encoding time: 0.009423
+DPLL: True 0.29253569999999995 {'decisions': 36, 'conflicts': 14, 'propagations': 1326, 'nodes': 37}
+CDCL: True 0.5471550000000001 {'decisions': 5, 'propagations': 1401, 'conflicts': 4, 'learned_clauses': 4, 'steps': 10}
+
+========== Nondango 14x14 ==========
+
+Encoding: Naive
+Variables: 131
+Clauses: 568
+Encoding time: 0.003981
+DPLL: True 0.009513199999999777 {'decisions': 105, 'conflicts': 46, 'propagations': 201, 'nodes': 106}
+CDCL: True 0.014939399999999825 {'decisions': 10, 'propagations': 173, 'conflicts': 5, 'learned_clauses': 5, 'steps': 16}
+
+Encoding: Tseitin
+Variables: 1578
+Clauses: 4342
+Encoding time: 0.015941
+DPLL: True 0.48061149999999975 {'decisions': 111, 'conflicts': 47, 'propagations': 2035, 'nodes': 112}
+CDCL: True 0.9536529000000002 {'decisions': 10, 'propagations': 1765, 'conflicts': 5, 'learned_clauses': 5, 'steps': 16}
+ ========== N-Queens 2 ==========
+
+Encoding: Naive
+Variables: 4
+Clauses: 16
+Encoding time: 0.000073
+DPLL: False 3.0799999999997496e-05 {'decisions': 6, 'conflicts': 4, 'propagations': 3, 'nodes': 7}
+CDCL: False 5.340000000000206e-05 {'decisions': 1, 'propagations': 7, 'conflicts': 2, 'learned_clauses': 1, 'steps': 3}
+
+Encoding: Tseitin
+Variables: 35
+Clauses: 94
+Encoding time: 0.000202
+DPLL: False 0.0005715999999999985 {'decisions': 6, 'conflicts': 4, 'propagations': 34, 'nodes': 7}
+CDCL: False 0.0010440000000000033 {'decisions': 1, 'propagations': 38, 'conflicts': 2, 'learned_clauses': 1, 'steps': 3}
+
+========== N-Queens 4 ==========
+
+Encoding: Naive
+Variables: 16
+Clauses: 160
+Encoding time: 0.000849
+DPLL: True 0.0002819000000000016 {'decisions': 13, 'conflicts': 6, 'propagations': 28, 'nodes': 14}
+CDCL: True 0.0015784000000000006 {'decisions': 6, 'propagations': 76, 'conflicts': 5, 'learned_clauses': 5, 'steps': 12}
+
+Encoding: Tseitin
+Variables: 247
+Clauses: 694
+Encoding time: 0.001579
+DPLL: True 0.0117904 {'decisions': 11, 'conflicts': 5, 'propagations': 393, 'nodes': 12}
+CDCL: True 0.027164300000000002 {'decisions': 6, 'propagations': 693, 'conflicts': 5, 'learned_clauses': 5, 'steps': 12}
+
+========== N-Queens 6 ==========
+
+Encoding: Naive
+Variables: 36
+Clauses: 592
+Encoding time: 0.002280
+DPLL: True 0.002182400000000001 {'decisions': 46, 'conflicts': 21, 'propagations': 125, 'nodes': 47}
+CDCL: True 0.019038 {'decisions': 22, 'propagations': 391, 'conflicts': 20, 'learned_clauses': 20, 'steps': 43}
+
+Encoding: Tseitin
+Variables: 795
+Clauses: 2278
+Encoding time: 0.005468
+DPLL: True 0.12051559999999999 {'decisions': 50, 'conflicts': 22, 'propagations': 2630, 'nodes': 51}
+CDCL: True 0.27757770000000004 {'decisions': 22, 'propagations': 6740, 'conflicts': 20, 'learned_clauses': 20, 'steps': 43}
+
+========== N-Queens 8 ==========
+
+Encoding: Naive
+Variables: 64
+Clauses: 1472
+Encoding time: 0.005940
+DPLL: True 0.00757629999999998 {'decisions': 113, 'conflicts': 55, 'propagations': 398, 'nodes': 114}
+CDCL: True 0.04916799999999999 {'decisions': 26, 'propagations': 420, 'conflicts': 24, 'learned_clauses': 24, 'steps': 51}
+
+Encoding: Tseitin
+Variables: 1839
+Clauses: 5326
+Encoding time: 0.016879
+DPLL: True 0.6172221 {'decisions': 124, 'conflicts': 60, 'propagations': 11656, 'nodes': 125}
+CDCL: True 1.0246235000000001 {'decisions': 26, 'propagations': 14135, 'conflicts': 24, 'learned_clauses': 24, 'steps': 51}
+
+========== N-Queens 10 ==========
+
+Encoding: Naive
+Variables: 100
+Clauses: 2960
+Encoding time: 0.015627
+DPLL: True 0.010427899999999823 {'decisions': 118, 'conflicts': 56, 'propagations': 424, 'nodes': 119}
+CDCL: True 0.07654329999999998 {'decisions': 24, 'propagations': 406, 'conflicts': 20, 'learned_clauses': 20, 'steps': 45}
+
+Encoding: Tseitin
+Variables: 3539
+Clauses: 10318
+Encoding time: 0.045835
+DPLL: True 1.6646894999999997 {'decisions': 139, 'conflicts': 66, 'propagations': 17643, 'nodes': 140}
+CDCL: True 2.3458566000000003 {'decisions': 24, 'propagations': 18801, 'conflicts': 20, 'learned_clauses': 20, 'steps': 45}
+
+========== N-Queens 12 ==========
+
+Encoding: Naive
+Variables: 144
+Clauses: 5216
+Encoding time: 0.028270
+DPLL: True 0.029068900000000397 {'decisions': 191, 'conflicts': 92, 'propagations': 860, 'nodes': 192}
+CDCL: True 0.5291956999999998 {'decisions': 86, 'propagations': 1804, 'conflicts': 80, 'learned_clauses': 80, 'steps': 167}
+
+Encoding: Tseitin
+Variables: 6055
+Clauses: 17734
+Encoding time: 0.136780
+DPLL: True 5.1007052 {'decisions': 229, 'conflicts': 110, 'propagations': 42462, 'nodes': 230}
+CDCL: True 9.897656900000001 {'decisions': 86, 'propagations': 122534, 'conflicts': 80, 'learned_clauses': 80, 'steps': 167}
+
+========== N-Queens 14 ==========
+
+Encoding: Naive
+Variables: 196
+Clauses: 8400
+Encoding time: 0.048421
+DPLL: True 0.15710669999999993 {'decisions': 1278, 'conflicts': 634, 'propagations': 6038, 'nodes': 1279}
+CDCL: True 3.962732299999999 {'decisions': 371, 'propagations': 8934, 'conflicts': 366, 'learned_clauses': 366, 'steps': 738}
+
+Encoding: Tseitin
+Variables: 9547
+Clauses: 28054
+Encoding time: 0.305098
+DPLL: True 33.0915006 {'decisions': 1537, 'conflicts': 762, 'propagations': 353831, 'nodes': 1538}
+CDCL: True 56.4995002 {'decisions': 371, 'propagations': 791492, 'conflicts': 366, 'learned_clauses': 366, 'steps': 738}
+
+========== N-Queens 16 ==========
+
+Encoding: Naive
+Variables: 256
+Clauses: 12672
+Encoding time: 0.101037
+DPLL: True 0.9127407000000005 {'decisions': 6393, 'conflicts': 3191, 'propagations': 30994, 'nodes': 6394}
+CDCL: True 5.146089799999999 {'decisions': 327, 'propagations': 8827, 'conflicts': 319, 'learned_clauses': 319, 'steps': 647}
+
+Encoding: Tseitin
+Variables: 14175
+Clauses: 41758
+Encoding time: 0.619055
+DPLL: True 195.5681463 {'decisions': 7547, 'conflicts': 3765, 'propagations': 2177379, 'nodes': 7548}
+CDCL: True 75.82221229999999 {'decisions': 327, 'propagations': 900495, 'conflicts': 319, 'learned_clauses': 319, 'steps': 647}
+ ========== 5x5 ==========
+Encoding: Naive
+Variables: 25
+Clauses: 13010
+Encoding time: 0.037579
+DPLL
+SAT: True
+Runtime: 0.008008000000000001
+{'decisions': 0, 'conflicts': 0, 'propagations': 25, 'nodes': 1}
+CDCL
+SAT: True
+Runtime: 0.02079360000000001
+{'decisions': 0, 'propagations': 25, 'conflicts': 0, 'learned_clauses': 0, 'steps': 1}
+
+Encoding: Tseitin
+Variables: 194
+Clauses: 508
+Encoding time: 0.001053
+DPLL
+SAT: True
+Runtime: 0.0024160999999999974
+{'decisions': 0, 'conflicts': 0, 'propagations': 194, 'nodes': 1}
+CDCL
+SAT: True
+Runtime: 0.0049283000000000035
+{'decisions': 0, 'propagations': 194, 'conflicts': 0, 'learned_clauses': 0, 'steps': 1}
+========== 10x10 ==========
+Tseitin
+Variables: 1279
+Clauses: 3538
+Encoding time: 0.008058
+DPLL
+SAT: True
+Runtime: 0.1481111
+{'decisions': 56, 'conflicts': 24, 'propagations': 2170, 'nodes': 57}
+CDCL
+SAT: True
+Runtime: 0.2859182
+{'decisions': 28, 'propagations': 2052, 'conflicts': 24, 'learned_clauses': 24, 'steps': 53}
+========== 10x10b ==========
+Tseitin
+Variables: 3089
+Clauses: 8968
+Encoding time: 0.027062
+DPLL
+SAT: False
+Runtime: 3.1191292
+{'decisions': 158, 'conflicts': 80, 'propagations': 25004, 'nodes': 159}
+
+========== 15x15 ==========
+Tseitin
+Variables: 27554
+Clauses: 81988
+Encoding time: 0.838446
+DPLL
+SAT: False
+Runtime: 101.41109879999999
+{'decisions': 420, 'conflicts': 211, 'propagations': 150478, 'nodes': 421}
